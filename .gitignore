@@ -1,0 +1,47 @@
+# --- PlatformIO ---
+# Archivos temporales de compilación y librerías descargadas automáticamente
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# --- Configuraciones locales de editores e IDEs ---
+# VS Code / VSCodium (evita sobreescribir configuraciones locales de otros entornos)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Editores de terminal (Vim, Neovim, etc.)
+*.swp
+*.swo
+*~
+
+# --- Archivos residuales del sistema operativo ---
+# Linux
+*~
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Archivos sensibles o secretos ---
+# Variables de entorno y credenciales (WiFi, API keys, etc.)
+.env
+.env.*
+!.env.example
+secrets.h
+credentials.h
